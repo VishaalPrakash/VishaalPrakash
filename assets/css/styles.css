@@ -1,0 +1,32 @@
+.header {
+    display:flex;
+    justify-content: center;
+    height: 100;
+    flex-wrap: wrap;
+ }
+ .main {
+    display:flex;
+    justify-content: space-evenly;
+    height: 100;
+    flex-wrap: wrap;
+ }
+.header-item {
+
+    height: 200px;
+    width: 600px;
+    background-color: gray;
+    border: 5px solid black;
+}
+.main-item {
+
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 652px) {
+    .main-item {
+        background-color: rgb(204, 70, 29);
+    }
+}

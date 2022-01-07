@@ -11,22 +11,22 @@
     flex-wrap: wrap;
  }
 .header-item {
-
     height: 200px;
-    width: 600px;
+    width: 400px;
     background-color: gray;
     border: 5px solid black;
+    margin-bottom: 5px;
 }
 .main-item {
-
     height: 200px;
     width: 300px;
     background-color: gray;
     border: 5px solid black;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 652px) {
     .main-item {
-        background-color: rgb(204, 70, 29);
+        background-color: rgb(201, 22, 22);
     }
 }
